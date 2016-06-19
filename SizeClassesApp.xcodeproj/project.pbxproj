@@ -7,27 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		363C93961D14C448005D9237 /* TitleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 363C93951D14C448005D9237 /* TitleVC.m */; };
+		363C939C1D14C453005D9237 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 363C939A1D14C453005D9237 /* CustomCell.m */; };
+		363C939E1D14C4AB005D9237 /* ContentTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 363C939D1D14C4AB005D9237 /* ContentTableVC.m */; };
 		36F5C5BD1D11FA6200EB4CFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F5C5BC1D11FA6200EB4CFD /* main.m */; };
 		36F5C5C01D11FA6200EB4CFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F5C5BF1D11FA6200EB4CFD /* AppDelegate.m */; };
-		36F5C5C31D11FA6200EB4CFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F5C5C21D11FA6200EB4CFD /* ViewController.m */; };
 		36F5C5C61D11FA6200EB4CFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36F5C5C41D11FA6200EB4CFD /* Main.storyboard */; };
-		36F5C5C91D11FA6200EB4CFD /* SizeClassesApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36F5C5C71D11FA6200EB4CFD /* SizeClassesApp.xcdatamodeld */; };
 		36F5C5CB1D11FA6200EB4CFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36F5C5CA1D11FA6200EB4CFD /* Assets.xcassets */; };
 		36F5C5CE1D11FA6200EB4CFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36F5C5CC1D11FA6200EB4CFD /* LaunchScreen.storyboard */; };
+		36F5C5F01D12009600EB4CFD /* Programme.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F5C5EB1D12009600EB4CFD /* Programme.m */; };
+		36F5C5F11D12009600EB4CFD /* Programme+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F5C5ED1D12009600EB4CFD /* Programme+CoreDataProperties.m */; };
+		36F5C5F21D12009600EB4CFD /* SizeClassesApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36F5C5EE1D12009600EB4CFD /* SizeClassesApp.xcdatamodeld */; };
+		36F5C5FB1D1201F400EB4CFD /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F5C5FA1D1201F400EB4CFD /* DBManager.m */; };
+		36F5C5FE1D12025600EB4CFD /* Downloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F5C5FD1D12025600EB4CFD /* Downloader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		363C93941D14C448005D9237 /* TitleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TitleVC.h; path = TitleVC/TitleVC.h; sourceTree = "<group>"; };
+		363C93951D14C448005D9237 /* TitleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TitleVC.m; path = TitleVC/TitleVC.m; sourceTree = "<group>"; };
+		363C93971D14C453005D9237 /* ContentTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContentTableVC.h; path = ContentTableView/ContentTableVC.h; sourceTree = "<group>"; };
+		363C93991D14C453005D9237 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomCell.h; path = ContentTableView/CustomCell.h; sourceTree = "<group>"; };
+		363C939A1D14C453005D9237 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomCell.m; path = ContentTableView/CustomCell.m; sourceTree = "<group>"; };
+		363C939D1D14C4AB005D9237 /* ContentTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContentTableVC.m; path = ContentTableView/ContentTableVC.m; sourceTree = "<group>"; };
 		36F5C5B81D11FA6200EB4CFD /* SizeClassesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SizeClassesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36F5C5BC1D11FA6200EB4CFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		36F5C5BE1D11FA6200EB4CFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		36F5C5BF1D11FA6200EB4CFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		36F5C5C11D11FA6200EB4CFD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		36F5C5C21D11FA6200EB4CFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		36F5C5C51D11FA6200EB4CFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		36F5C5C81D11FA6200EB4CFD /* SizeClassesApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SizeClassesApp.xcdatamodel; sourceTree = "<group>"; };
 		36F5C5CA1D11FA6200EB4CFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36F5C5CD1D11FA6200EB4CFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36F5C5CF1D11FA6300EB4CFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36F5C5EA1D12009600EB4CFD /* Programme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Programme.h; path = DataBase/Programme.h; sourceTree = "<group>"; };
+		36F5C5EB1D12009600EB4CFD /* Programme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Programme.m; path = DataBase/Programme.m; sourceTree = "<group>"; };
+		36F5C5EC1D12009600EB4CFD /* Programme+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Programme+CoreDataProperties.h"; path = "DataBase/Programme+CoreDataProperties.h"; sourceTree = "<group>"; };
+		36F5C5ED1D12009600EB4CFD /* Programme+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Programme+CoreDataProperties.m"; path = "DataBase/Programme+CoreDataProperties.m"; sourceTree = "<group>"; };
+		36F5C5EF1D12009600EB4CFD /* SizeClassesApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SizeClassesApp.xcdatamodel; sourceTree = "<group>"; };
+		36F5C5F91D1201F400EB4CFD /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBManager.h; path = DataBase/DBManager/DBManager.h; sourceTree = "<group>"; };
+		36F5C5FA1D1201F400EB4CFD /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBManager.m; path = DataBase/DBManager/DBManager.m; sourceTree = "<group>"; };
+		36F5C5FC1D12025600EB4CFD /* Downloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Downloader.h; sourceTree = "<group>"; };
+		36F5C5FD1D12025600EB4CFD /* Downloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Downloader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +59,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		363C93921D14C416005D9237 /* ContentTableView */ = {
+			isa = PBXGroup;
+			children = (
+				363C93971D14C453005D9237 /* ContentTableVC.h */,
+				363C939D1D14C4AB005D9237 /* ContentTableVC.m */,
+				363C93991D14C453005D9237 /* CustomCell.h */,
+				363C939A1D14C453005D9237 /* CustomCell.m */,
+			);
+			name = ContentTableView;
+			sourceTree = "<group>";
+		};
+		363C93931D14C431005D9237 /* TitleVC */ = {
+			isa = PBXGroup;
+			children = (
+				363C93941D14C448005D9237 /* TitleVC.h */,
+				363C93951D14C448005D9237 /* TitleVC.m */,
+			);
+			name = TitleVC;
+			sourceTree = "<group>";
+		};
 		36F5C5AF1D11FA6200EB4CFD = {
 			isa = PBXGroup;
 			children = (
@@ -60,15 +98,17 @@
 		36F5C5BA1D11FA6200EB4CFD /* SizeClassesApp */ = {
 			isa = PBXGroup;
 			children = (
+				363C93931D14C431005D9237 /* TitleVC */,
+				363C93921D14C416005D9237 /* ContentTableView */,
+				36F5C5FC1D12025600EB4CFD /* Downloader.h */,
+				36F5C5FD1D12025600EB4CFD /* Downloader.m */,
+				36F5C5E71D12006D00EB4CFD /* DataBase */,
 				36F5C5BE1D11FA6200EB4CFD /* AppDelegate.h */,
 				36F5C5BF1D11FA6200EB4CFD /* AppDelegate.m */,
-				36F5C5C11D11FA6200EB4CFD /* ViewController.h */,
-				36F5C5C21D11FA6200EB4CFD /* ViewController.m */,
 				36F5C5C41D11FA6200EB4CFD /* Main.storyboard */,
 				36F5C5CA1D11FA6200EB4CFD /* Assets.xcassets */,
 				36F5C5CC1D11FA6200EB4CFD /* LaunchScreen.storyboard */,
 				36F5C5CF1D11FA6300EB4CFD /* Info.plist */,
-				36F5C5C71D11FA6200EB4CFD /* SizeClassesApp.xcdatamodeld */,
 				36F5C5BB1D11FA6200EB4CFD /* Supporting Files */,
 			);
 			path = SizeClassesApp;
@@ -80,6 +120,28 @@
 				36F5C5BC1D11FA6200EB4CFD /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36F5C5E71D12006D00EB4CFD /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				36F5C5F31D1200C700EB4CFD /* DBManager */,
+				36F5C5EA1D12009600EB4CFD /* Programme.h */,
+				36F5C5EB1D12009600EB4CFD /* Programme.m */,
+				36F5C5EC1D12009600EB4CFD /* Programme+CoreDataProperties.h */,
+				36F5C5ED1D12009600EB4CFD /* Programme+CoreDataProperties.m */,
+				36F5C5EE1D12009600EB4CFD /* SizeClassesApp.xcdatamodeld */,
+			);
+			name = DataBase;
+			sourceTree = "<group>";
+		};
+		36F5C5F31D1200C700EB4CFD /* DBManager */ = {
+			isa = PBXGroup;
+			children = (
+				36F5C5F91D1201F400EB4CFD /* DBManager.h */,
+				36F5C5FA1D1201F400EB4CFD /* DBManager.m */,
+			);
+			name = DBManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,10 +214,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36F5C5C31D11FA6200EB4CFD /* ViewController.m in Sources */,
-				36F5C5C91D11FA6200EB4CFD /* SizeClassesApp.xcdatamodeld in Sources */,
+				36F5C5FB1D1201F400EB4CFD /* DBManager.m in Sources */,
+				36F5C5F01D12009600EB4CFD /* Programme.m in Sources */,
+				36F5C5F11D12009600EB4CFD /* Programme+CoreDataProperties.m in Sources */,
+				363C939E1D14C4AB005D9237 /* ContentTableVC.m in Sources */,
+				36F5C5F21D12009600EB4CFD /* SizeClassesApp.xcdatamodeld in Sources */,
+				363C939C1D14C453005D9237 /* CustomCell.m in Sources */,
 				36F5C5C01D11FA6200EB4CFD /* AppDelegate.m in Sources */,
+				36F5C5FE1D12025600EB4CFD /* Downloader.m in Sources */,
 				36F5C5BD1D11FA6200EB4CFD /* main.m in Sources */,
+				363C93961D14C448005D9237 /* TitleVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,17 +374,19 @@
 				36F5C5D41D11FA6300EB4CFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		36F5C5C71D11FA6200EB4CFD /* SizeClassesApp.xcdatamodeld */ = {
+		36F5C5EE1D12009600EB4CFD /* SizeClassesApp.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				36F5C5C81D11FA6200EB4CFD /* SizeClassesApp.xcdatamodel */,
+				36F5C5EF1D12009600EB4CFD /* SizeClassesApp.xcdatamodel */,
 			);
-			currentVersion = 36F5C5C81D11FA6200EB4CFD /* SizeClassesApp.xcdatamodel */;
-			path = SizeClassesApp.xcdatamodeld;
+			currentVersion = 36F5C5EF1D12009600EB4CFD /* SizeClassesApp.xcdatamodel */;
+			name = SizeClassesApp.xcdatamodeld;
+			path = DataBase/SizeClassesApp.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

@@ -1,15 +1,15 @@
 //
-//  ViewController.h
+//  Programme.m
 //  SizeClassesApp
 //
 //  Created by Melany Gulianovych on 6/16/16.
 //  Copyright © 2016 Melany Gulianovych. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "Programme.h"
 
-@interface ViewController : UIViewController
+@implementation Programme
 
+// Insert code here to add functionality to your managed object subclass
 
 @end
-
